@@ -11,7 +11,7 @@ Working:
 - Bluetooth
 - All USB ports
 - Keyboard 16 (Automatically turn off lights)
-- TouchPad with VoodooI2C
+- TouchPad with VoodooI2C (Turn off fn+f9)
 - Fn Keys
 - Keyboard Backlighting
 - Ethernet (LAN)
