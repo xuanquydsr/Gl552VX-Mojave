@@ -19,3 +19,4 @@ Working:
 - UVC HD Webcam
 - Speaker + Internal Microphone
 - iMessage + FaceTime
+- Disable Touch ID
