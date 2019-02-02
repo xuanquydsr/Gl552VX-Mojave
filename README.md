@@ -21,3 +21,6 @@ Working:
 - Speaker + Internal Microphone
 - iMessage + FaceTime
 - Disable Touch ID
+
+AppleHDA Patcher:
+https://olarila.com/forum/viewtopic.php?t=6528
