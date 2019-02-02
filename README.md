@@ -1,5 +1,5 @@
 # Gl552VX-Mojave
-Hackintosh GL552VX Mojave 14.3
+Hackintosh GL552VX Mojave 10.14.3
 Use Hotpatch
 Working:
 - Wifi (BCM4352)
