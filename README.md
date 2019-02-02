@@ -4,7 +4,8 @@ Use Hotpatch
 Working:
 - Wifi (BCM4352)
 - Card Reader
-- sleep
+- sleep (Fn+F1 icon)
+- Airplane mode (Fn+F2 icon)
 - shutdown
 - Intel HD 530
 - HDMI
