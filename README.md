@@ -1,5 +1,5 @@
 # Gl552VX-Mojave
-Hackintosh GL552VX Mojave 14.2
+Hackintosh GL552VX Mojave 10.14.3
 Use Hotpatch
 Working:
 - Wifi (BCM4352)
@@ -21,3 +21,6 @@ Working:
 - Speaker + Internal Microphone
 - iMessage + FaceTime
 - Disable Touch ID
+
+AppleHDA Patcher:
+https://olarila.com/forum/viewtopic.php?t=6528
