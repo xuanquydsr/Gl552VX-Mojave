@@ -1,5 +1,8 @@
 # Gl552VX-Mojave
 Hackintosh GL552VX Mojave 10.14.4
+
+![alt text](https://i.imgur.com/E9eVSrQ.png)
+
 Use Hotpatch
 Working:
 - Wifi (BCM94352Z DW1560)
@@ -25,9 +28,11 @@ Working:
 Wifi + airDrop + Bluetooth:
 https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/
 
-Install Fake-pci-id:
+Install Fake-pci-id (FOLDER INSTALL S:L:E):
 https://bitbucket.org/RehabMan/os-x-fake-pci-id
 
 Audio:
-AppleHDA Patcher or AppleALC.
+AppleHDA Patcher:
 https://olarila.com/forum/viewtopic.php?t=6528
+OR
+AppleALC.
