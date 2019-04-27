@@ -82,6 +82,8 @@
 				<string>Realtek ALC892 desktop</string>
 				<key>10ec_0900</key>
 				<string>Realtek ALC1150</string>
+				<key>14f1_510f</key>
+				<string>CX20752</string>
 				<key>8086</key>
 				<string>Disabled HDMI</string>
 				<key>Default</key>
@@ -331,6 +333,40 @@
 					<key>Sleep Nodes</key>
 					<false/>
 					<key>Update Nodes</key>
+					<false/>
+				</dict>
+				<key>CX20752</key>
+				<dict>
+					<key>Custom Commands</key>
+					<array>
+						<dict>
+							<key>Command</key>
+							<string>0x01970724</string>
+							<key>Comment</key>
+							<string>0x19 SET_PIN_WIDGET_CONTROL 0x24</string>
+							<key>On Init</key>
+							<true/>
+							<key>On Sleep</key>
+							<false/>
+							<key>On Wake</key>
+							<true/>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<string>0x01a70724</string>
+							<key>Comment</key>
+							<string>0x1a SET_PIN_WIDGET_CONTROL 0x24</string>
+							<key>On Init</key>
+							<true/>
+							<key>On Sleep</key>
+							<false/>
+							<key>On Wake</key>
+							<true/>
+						</dict>
+					</array>
+					<key>Perform Reset</key>
+					<false/>
+					<key>Perform Reset on External Wake</key>
 					<false/>
 				</dict>
 			</dict>
