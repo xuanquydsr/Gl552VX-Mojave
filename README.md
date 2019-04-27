@@ -2,7 +2,7 @@
 Hackintosh GL552VX Mojave 10.14.4
 Use Hotpatch
 Working:
-- Wifi (BCM4352)
+- Wifi (BCM94352Z DW1560)
 - Card Reader
 - sleep (Fn+F1 icon)
 - Airplane mode (Fn+F2 icon)
