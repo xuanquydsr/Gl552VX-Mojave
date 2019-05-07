@@ -7,25 +7,23 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-	<string>SMCProcessor</string>
+	<string>AsusSMC</string>
 	<key>CFBundleIdentifier</key>
-	<string>as.vit9696.SMCProcessor</string>
+	<string>com.hieplpvip.AsusSMC</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>SMCProcessor</string>
+	<string>AsusSMC</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.3</string>
-	<key>CFBundleSignature</key>
-	<string>????</string>
+	<string>1.1</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.0.3</string>
+	<string>1.1</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -42,31 +40,33 @@
 	<string>9F2000</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>as.vit9696.SMCProcessor</key>
+		<key>AsusSMC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>as.vit9696.SMCProcessor</string>
+			<string>com.hieplpvip.AsusSMC</string>
 			<key>IOClass</key>
-			<string>SMCProcessor</string>
-			<key>IOMatchCategory</key>
-			<string>SMCProcessor</string>
+			<string>AsusSMC</string>
 			<key>IONameMatch</key>
-			<string>processor</string>
-			<key>IOPropertyMatch</key>
-			<dict>
-				<key>processor-index</key>
-				<integer>0</integer>
-			</dict>
+			<array>
+				<string>PNP0c14</string>
+				<string>PNP0C14</string>
+				<string>PnP0C14</string>
+				<string>pnp0c14</string>
+				<string>ASUS010</string>
+				<string>ASUS0100</string>
+				<string>ASUS0010</string>
+				<string>ATK0100</string>
+			</array>
+			<key>IOProbeScore</key>
+			<integer>9999</integer>
 			<key>IOProviderClass</key>
 			<string>IOACPIPlatformDevice</string>
-			<key>IOResourceMatch</key>
-			<string>ACPI</string>
 		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2018 vit9696. All rights reserved.</string>
+	<string>Copyright © 2018 Le Bao Hiep</string>
 	<key>OSBundleCompatibleVersion</key>
-	<string>1.0</string>
+	<string>1.0.0</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>as.vit9696.Lilu</key>
@@ -74,7 +74,9 @@
 		<key>as.vit9696.VirtualSMC</key>
 		<string>1.0.0</string>
 		<key>com.apple.iokit.IOACPIFamily</key>
-		<string>1.0.0d1</string>
+		<string>1.2</string>
+		<key>com.apple.iokit.IOHIDSystem</key>
+		<string>2.0.0</string>
 		<key>com.apple.kpi.bsd</key>
 		<string>12.0.0</string>
 		<key>com.apple.kpi.dsep</key>
