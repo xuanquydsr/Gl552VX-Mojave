@@ -1,10 +1,10 @@
 # Gl552VX-Mojave
-Hackintosh GL552VX Mojave 10.14.5
+# Hackintosh GL552VX Mojave 10.14.5
 
 ![alt text](https://i.imgur.com/VuENUZU.png)
 
-Use Hotpatch
-Working:
+# Use Hotpatch
+# Working:
 - Wifi (BCM94352Z DW1560)
 - Card Reader
 - sleep (Fn+F1 icon)
@@ -25,7 +25,7 @@ Working:
 - iMessage + FaceTime
 - Disable Touch ID
 
-SOURCE:
+# SOURCE:
 
 Wifi + airDrop + Bluetooth:
 https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/
@@ -33,7 +33,7 @@ https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/
 Install Fake-pci-id (FOLDER INSTALL S:L:E):
 https://bitbucket.org/RehabMan/os-x-fake-pci-id
 
-Audio:
+# Audio:
 
 1. AppleALC. (recommendation)
 
