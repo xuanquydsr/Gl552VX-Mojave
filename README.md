@@ -1,7 +1,7 @@
 # Gl552VX-Mojave
-Hackintosh GL552VX Mojave 10.14.4
+Hackintosh GL552VX Mojave 10.14.5
 
-![alt text](https://i.imgur.com/E9eVSrQ.png)
+![alt text](https://i.imgur.com/VuENUZU.png)
 
 Use Hotpatch
 Working:
@@ -34,7 +34,12 @@ Install Fake-pci-id (FOLDER INSTALL S:L:E):
 https://bitbucket.org/RehabMan/os-x-fake-pci-id
 
 Audio:
-AppleHDA Patcher:
-https://olarila.com/forum/viewtopic.php?t=6528
+
+1. AppleALC. (recommendation)
+
+Install AppleALC on "Clover"
+
 OR
-AppleALC.
+2. AppleHDA Patcher:
+https://olarila.com/forum/viewtopic.php?t=6528
+
